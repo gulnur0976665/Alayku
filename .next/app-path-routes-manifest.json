@@ -1,0 +1,19 @@
+{
+  "/favicon.ico/route": "/favicon.ico",
+  "/_not-found": "/_not-found",
+  "/page": "/",
+  "/blog-details2/page": "/blog-details2",
+  "/about/page": "/about",
+  "/boba-tea/page": "/boba-tea",
+  "/blog-details/page": "/blog-details",
+  "/frappe/page": "/frappe",
+  "/gallery-2/page": "/gallery-2",
+  "/milkshake/page": "/milkshake",
+  "/menu/page": "/menu",
+  "/restaurant/page": "/restaurant",
+  "/slushy/page": "/slushy",
+  "/team/page": "/team",
+  "/gallery/page": "/gallery",
+  "/contact/page": "/contact",
+  "/blog-classic/page": "/blog-classic"
+}
