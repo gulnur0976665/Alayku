@@ -550,7 +550,7 @@ function Home() {
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [583,416,858,752,653], () => (__webpack_exec__(5505)));
+var __webpack_exports__ = __webpack_require__.X(0, [583,416,445,752,377], () => (__webpack_exec__(5505)));
 module.exports = __webpack_exports__;
 
 })();

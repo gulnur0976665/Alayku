@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
       className={`${niconne.variable} ${inter.className} ${poppins.variable} ${tangerine.variable}`}
     >
       <body>
-        <Preloader /> {/* 👈 ушул жерге кошосуз */}
+        <Preloader />
         {children}
       </body>
     </html>
