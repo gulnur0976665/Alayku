@@ -109,7 +109,7 @@ export default function Blog() {
                 data-wow-duration="1500ms"
               >
                 <div className="image">
-                  <img src="assets/images/block7.jpg" alt="" />
+                  <img src="assets/images/block73.png" alt="" />
                   {/* Overlay Box */}
                   <div className="overlay-box">
                     <div className="overlay-inner">

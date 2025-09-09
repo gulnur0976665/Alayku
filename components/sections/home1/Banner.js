@@ -33,7 +33,7 @@ export default function Banner() {
   useEffect(() => {
     const interval = setInterval(() => {
       setActiveIndex((prev) => (prev + 1) % slides.length);
-    }, 7000);
+    }, 5000);
     return () => clearInterval(interval);
   }, [slides.length]);
 
