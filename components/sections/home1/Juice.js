@@ -44,7 +44,7 @@ export default function Juice() {
                     уважение к нашим корням
                   </div>
                 </div>
-                <Link href="menu" className="theme-btn btn-style-two clearfix">
+                <Link href="#" className="theme-btn btn-style-two clearfix">
                   <span style={{ paddingLeft: "25px" }}>Стань партнёром</span>
                 </Link>
               </div>

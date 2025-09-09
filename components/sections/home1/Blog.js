@@ -27,7 +27,7 @@ export default function Blog() {
                 data-wow-duration="1500ms"
               >
                 <div className="image">
-                  <img src="assets/images/resource/news-1.jpg" alt="" />
+                  <img src="assets/images/block7.jpg" alt="" />
                   {/* Overlay Box */}
                   <div className="overlay-box">
                     <div className="overlay-inner">
@@ -68,7 +68,7 @@ export default function Blog() {
                 data-wow-duration="1500ms"
               >
                 <div className="image">
-                  <img src="assets/images/resource/news-2.jpg" alt="" />
+                  <img src="assets/images/block77.jpg" alt="" />
                   {/* Overlay Box */}
                   <div className="overlay-box">
                     <div className="overlay-inner">
@@ -109,7 +109,7 @@ export default function Blog() {
                 data-wow-duration="1500ms"
               >
                 <div className="image">
-                  <img src="assets/images/resource/news-3.jpg" alt="" />
+                  <img src="assets/images/block7.jpg" alt="" />
                   {/* Overlay Box */}
                   <div className="overlay-box">
                     <div className="overlay-inner">

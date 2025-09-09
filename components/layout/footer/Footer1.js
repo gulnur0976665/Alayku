@@ -92,9 +92,7 @@ export default function Footer1() {
             </div>
           </div>
           <div className="footer-bottom">
-            <div className="copyright">
-              &copy; 2024 foodily All Rights Reserved.
-            </div>
+            <div className="copyright">&copy; 2024 All Rights Reserved.</div>
           </div>
         </div>
       </footer>

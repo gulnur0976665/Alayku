@@ -24,7 +24,7 @@ export default function Header1({
               <div className="logo">
                 <Link href="/">
                   <Image
-                    src="/assets/images/logoHeader.png"
+                    src="/assets/images/logohe.png"
                     alt="Logo"
                     width={120}
                     height={60}

@@ -91,43 +91,6 @@
   padding: 28px 0px;
 }
 
-/* Search Box Outer */
-
-.main-header .search-box-outer {
-  position: relative;
-  float: left;
-}
-
-.main-header .search-box-btn {
-  position: relative;
-  top: 0px;
-  display: block;
-  float: left;
-  font-size: 20px;
-  color: #ffffff;
-  cursor: pointer;
-  background: none;
-  transition: all 500ms ease;
-  -moz-transition: all 500ms ease;
-  -webkit-transition: all 500ms ease;
-  -ms-transition: all 500ms ease;
-  -o-transition: all 500ms ease;
-}
-
-.main-header .search-box-btn:after {
-  display: none;
-}
-
-.main-header .header-upper .outer-box .nav-btn {
-  position: relative;
-  float: left;
-  top: 3px;
-  font-size: 24px;
-  color: #ffffff;
-  cursor: pointer;
-  margin-left: 35px;
-}
-
 /* Main Menu */
 
 .main-menu {
@@ -167,7 +130,17 @@
 }
 
 .sticky-header .main-menu .navigation > li > a {
-  color: #444444;
+  color: #613e31;
+  text-align: center;
+  line-height: 30px;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  opacity: 1;
+  font-weight: 400;
+  padding: 40px 0px 20px;
+  font-size: 18px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 .sticky-header .main-menu .navigation > li:hover > a,
@@ -230,7 +203,8 @@
   animation-iteration-count: 1;
 }
 
-.main-menu .navigation > li > a {
+/* Негизги меню стили */
+.navigation > li > a {
   position: relative;
   display: block;
   color: #ffffff;
@@ -242,39 +216,14 @@
   font-weight: 400;
   padding: 40px 0px 20px;
   font-size: 18px;
-  font-family: "Inter", sans-serif;
-  transition: all 500ms ease;
-  -moz-transition: all 500ms ease;
-  -webkit-transition: all 500ms ease;
-  -ms-transition: all 500ms ease;
-  -o-transition: all 500ms ease;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  transition: all 0.3s ease;
 }
 
-.main-menu .navigation > li:before {
-  position: absolute;
-  content: "";
-  left: 0px;
-  bottom: 0px;
-  width: 100%;
-  height: 10px;
-  opacity: 0;
-  transition: all 500ms ease;
-  -moz-transition: all 500ms ease;
-  -webkit-transition: all 500ms ease;
-  -ms-transition: all 500ms ease;
-  -o-transition: all 500ms ease;
-  background: url(../images/icons/menu-separater.png) repeat-x;
-  animation: slide 25s linear infinite;
-  -webkit-animation: slide 25s linear infinite;
-}
-
-@keyframes slide {
-  from {
-    background-position: 0 0;
-  }
-  to {
-    background-position: -511px 0;
-  }
+/* Активдүү элемент */
+.navigation > li.active > a {
+  color: red;
 }
 
 .main-menu .navigation > li:hover::before,
@@ -293,13 +242,6 @@
 .sticky-header .main-menu .navigation > li:before {
   display: none;
 }
-
-.main-menu .navigation > li:hover > a,
-.main-menu .navigation > li.current > a {
-  opacity: 1;
-  color: #111111;
-}
-
 .header-style-two .main-menu .navigation > li:hover > a,
 .header-style-two .main-menu .navigation > li.current > a {
   color: #ffffff;
@@ -338,23 +280,6 @@
 
 .main-menu .navigation > li > ul > li:last-child {
   border-bottom: none;
-}
-
-.main-menu .navigation > li > ul > li > a {
-  position: relative;
-  display: block;
-  padding: 12px 18px;
-  line-height: 24px;
-  font-weight: 500;
-  font-size: 16px;
-  text-align: left;
-  text-transform: capitalize;
-  color: #27272f;
-  transition: all 500ms ease;
-  -moz-transition: all 500ms ease;
-  -webkit-transition: all 500ms ease;
-  -ms-transition: all 500ms ease;
-  -o-transition: all 500ms ease;
 }
 
 .sticky-header .main-menu .navigation > li > a {
@@ -688,27 +613,6 @@
   margin: 0px;
 }
 
-.header-style-three .header-upper .search-box .form-group input[type="text"],
-.header-style-three .header-upper .search-box .form-group input[type="search"] {
-  position: relative;
-  line-height: 36px;
-  padding: 10px 50px 10px 30px;
-  background: #ffffff;
-  display: block;
-  font-size: 12px;
-  width: 430px;
-  height: 55px;
-  color: #000000;
-  border-radius: 0px;
-  text-transform: uppercase;
-  border: 1px solid #f1f1f1;
-  transition: all 500ms ease;
-  -moz-transition: all 500ms ease;
-  -webkit-transition: all 500ms ease;
-  -ms-transition: all 500ms ease;
-  -o-transition: all 500ms ease;
-}
-
 .header-style-three
   .header-upper
   .search-box
@@ -722,25 +626,6 @@
   color: #ecc7c7;
   letter-spacing: 2px;
 }
-
-.header-style-three .header-upper .search-box .form-group button {
-  position: absolute;
-  right: 0px;
-  top: 0px;
-  height: 55px;
-  width: 55px;
-  display: block;
-  font-size: 16px;
-  color: #ffffff;
-  text-align: center;
-  border-radius: 0px;
-  line-height: 100%;
-  cursor: pointer;
-  font-weight: normal;
-  background-color: #beb996;
-  display: inline-block;
-}
-
 .header-style-three .header-lower .outer-box {
   padding: 18px 0px;
 }
@@ -753,17 +638,6 @@
   position: relative;
   margin-left: 18px;
   display: inline-block;
-}
-
-.header-style-three .header-lower .outer-box .social-box li a {
-  position: relative;
-  color: #27272f;
-  font-size: 18px;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
 }
 
 .header-style-three .header-lower .outer-box .social-box li a:hover {

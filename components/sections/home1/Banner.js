@@ -1,223 +1,118 @@
 "use client";
+import { useEffect, useState } from "react";
 import Link from "next/link";
-import { Autoplay, Navigation, Pagination } from "swiper/modules";
-import { Swiper, SwiperSlide } from "swiper/react";
-
-const swiperOptions = {
-  modules: [Autoplay, Pagination, Navigation],
-  slidesPerView: 1,
-  spaceBetween: 0,
-  autoplay: {
-    delay: 3000,
-    disableOnInteraction: false,
-  },
-  speed: 1200,
-  loop: true,
-  navigation: {
-    nextEl: ".h1n",
-    prevEl: ".h1p",
-  },
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-};
 
 export default function Banner() {
+  const slides = [
+    {
+      image: "/assets/images/homebg2.png",
+      mainImg: "/assets/images/sherbet.png",
+      mainImg1: "/assets/images/sherbet1.png",
+      mainImg2: "/assets/images/sherbet2.png",
+      img1: "/assets/images/abrikos.png",
+      img2: "/assets/images/apple.png",
+    },
+    {
+      image: "/assets/images/homebg1.png",
+      mainImg: "/assets/images/kurut1.png",
+      mainImg1: "/assets/images/kurut2.png",
+      mainImg2: "/assets/images/kurut3.png",
+      img21: "/assets/images/kurut.png",
+    },
+    {
+      image: "/assets/images/homebg3.png",
+      mainImg: "/assets/images/chalap.png",
+      mainImg1: "/assets/images/chalap1.png",
+      mainImg2: "/assets/images/chalap2.png",
+      img22: "/assets/images/sli.png",
+    },
+  ];
+
+  const [activeIndex, setActiveIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setActiveIndex((prev) => (prev + 1) % slides.length);
+    }, 7000);
+    return () => clearInterval(interval);
+  }, [slides.length]);
+
   return (
-    <>
-      {/* Banner Section */}
-      <section className="banner-section">
-        <div
-          className="pattern-layer"
-          style={{
-            backgroundImage: "url(assets/images/main-slider/pattern-1.png)",
-          }}
-        ></div>
-        <Swiper {...swiperOptions} className="main-slider-carousel ">
-          {/* Slide */}
-          <SwiperSlide>
+    <section className="banner-section">
+      <div
+        className="pattern-layer"
+        style={{
+          backgroundImage: "url(assets/images/main-slider/pattern-1.png)",
+        }}
+      ></div>
+      <div className="slides">
+        {slides.map((slide, index) => (
+          <div
+            key={index}
+            className={`slide ${index === activeIndex ? "active" : ""}`}
+            style={{ backgroundImage: `url(${slide.image})` }}
+          >
             <div
-              className="slide"
-              style={{
-                backgroundImage: 'url("/assets/images/homebg2.png")',
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-                backgroundRepeat: "no-repeat",
-                width: "100%",
-                height: "110vh",
-              }}
+              className={`icon-layer-one ${
+                index === activeIndex ? "animate" : ""
+              }`}
             >
-              <div className="icon-layer-one">
-                <img src="assets/images/abrikos.png" alt="" />
-              </div>
-              <div className="icon-layer-two">
-                {" "}
-                <img src="assets/images/apple.png" alt="" />
-              </div>
-              <div className="auto-container">
-                <div className="row clearfix">
-                  {/* Content Column */}
-                  <div className="content-column col-lg-6 col-md-12 col-sm-12">
-                    <div className="inner-column">
-                      <h1>
-                        <span className="first-letter">
-                          Попробуйте историю на вкус
-                        </span>
-                      </h1>
-                      <div className="text">
-                        Органика — это не просто отсутствие ГМО и химии. Это
-                        простая философия: жить в гармонии с природой и выбирать
-                        лучшее для здоровья.
-                      </div>
-                      <div className="btns-box">
-                        <Link
-                          href="menu"
-                          className="theme-btn btn-style-one clearfix"
-                        >
-                          <span
-                            style={{ paddingLeft: "25px", color: "#613e31" }}
-                          >
-                            Стань партнёром
-                          </span>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
+              <img src={slide.img1} alt="" />
+            </div>
 
-                  {/* Image Column */}
-                  <div className="image-column col-lg-6 col-md-12 col-sm-12">
-                    <div className="image">
-                      <img src="assets/images/sherbet.png" alt="" />
-                    </div>
-                  </div>
+            <div
+              className={`icon-layer-two ${
+                index === activeIndex ? "animate" : ""
+              }`}
+            >
+              <img src={slide.img2} alt="" />
+            </div>
+            <div
+              className={`icon-layer-two1 ${
+                index === activeIndex ? "animate" : ""
+              }`}
+            >
+              <img src={slide.img21} alt="" />
+            </div>
+            <div
+              className={`icon-layer-two2 ${
+                index === activeIndex ? "animate" : ""
+              }`}
+            >
+              <img src={slide.img22} alt="" />
+            </div>
+            <div className="auto-container">
+              <div className="content-column">
+                <h1 className={index === activeIndex ? "animate" : ""}>
+                  Попробуйте историю на вкус
+                </h1>
+                <p className={`text ${index === activeIndex ? "animate" : ""}`}>
+                  Органика — это не просто отсутствие ГМО и химии.Это простая
+                  философия: жить в гармонии с природой и выбирать лучшее для
+                  здоровья.
+                </p>
+                <div
+                  className={`btns-box ${
+                    index === activeIndex ? "animate" : ""
+                  }`}
+                >
+                  <span className="theme-btn">
+                    {" "}
+                    <Link href="#">Стань партнёром</Link>
+                  </span>
+                </div>
+              </div>
+              <div className="images">
+                <div className="image-column">
+                  <img src={slide.mainImg1} alt={slide.title} />
+                  <img src={slide.mainImg} alt={slide.title} />
+                  <img src={slide.mainImg2} alt={slide.title} />
                 </div>
               </div>
             </div>
-          </SwiperSlide>
-
-          {/* Slide 2*/}
-          <SwiperSlide>
-            <div
-              className="slide"
-              style={{
-                backgroundImage: 'url("/assets/images/homebg1.png")',
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-                backgroundRepeat: "no-repeat",
-                width: "100%",
-                height: "100vh",
-              }}
-            >
-              <div className="icon-layer-two1">
-                <img src="assets/images/kurut.png" alt="" />
-              </div>
-              <div className="auto-container">
-                <div className="row clearfix">
-                  {/* Content Column */}
-                  <div className="content-column col-lg-6 col-md-12 col-sm-12">
-                    <div className="inner-column">
-                      <h1>
-                        <span className="first-letter">
-                          Попробуйте историю на вкус
-                        </span>
-                      </h1>
-                      <div className="text">
-                        Органика — это не просто отсутствие ГМО и химии. Это
-                        простая философия: жить в гармонии с природой и выбирать
-                        лучшее для здоровья.
-                      </div>
-                      <div className="btns-box">
-                        <Link
-                          href="menu"
-                          className="theme-btn btn-style-one clearfix"
-                        >
-                          <span
-                            style={{ paddingLeft: "25px", color: "#613e31" }}
-                          >
-                            Стань партнёром
-                          </span>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Image Column */}
-                  <div className="image-column col-lg-6 col-md-12 col-sm-12">
-                    <div className="inner-column">
-                      <div className="image">
-                        <img src="assets/images/kurut1.png" alt="" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-          {/* Slide3 */}
-          <SwiperSlide>
-            <div
-              className="slide style-two"
-              style={{
-                backgroundImage: 'url("/assets/images/homebg3.png")',
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-                backgroundRepeat: "no-repeat",
-                width: "100%",
-                height: "100vh",
-              }}
-            >
-              <div
-                className="icon-layer-two2"
-                style={{
-                  backgroundImage: "url(assets/images/sli.png)",
-                }}
-              ></div>
-              <div className="auto-container">
-                <div className="row clearfix">
-                  {/* Content Column */}
-                  <div className="content-column col-lg-6 col-md-12 col-sm-12">
-                    <div className="inner-column">
-                      <h1>
-                        <span className="first-letter">
-                          Попробуйте историю на вкус
-                        </span>
-                      </h1>
-                      <div className="text">
-                        Органика — это не просто отсутствие ГМО и химии. Это
-                        простая философия: жить в гармонии с природой и выбирать
-                        лучшее для здоровья.
-                      </div>
-                      <div className="btns-box">
-                        <Link
-                          href="menu"
-                          className="theme-btn btn-style-one clearfix"
-                        >
-                          <span
-                            style={{ paddingLeft: "25px", color: "#613e31" }}
-                          >
-                            Стань партнёром
-                          </span>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Image Column */}
-                  <div className="image-column col-lg-6 col-md-12 col-sm-12">
-                    <div className="inner-column">
-                      <div className="image">
-                        <img src="assets/images/chalap.png" alt="" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-        </Swiper>
-      </section>
-      {/* End Banner Section */}
-    </>
+          </div>
+        ))}
+      </div>
+    </section>
   );
 }

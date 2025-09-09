@@ -26,9 +26,9 @@ export default function Beverage() {
                 </div>
                 <div className="lower-content">
                   <h6>
-                    <Link href="milkshake">Milkshake</Link>
+                    <Link href="milkshake">Чалап</Link>
                   </h6>
-                  <div className="products">3 products</div>
+                  <div className="products">Перец</div>
                 </div>
               </div>
             </div>
@@ -43,9 +43,9 @@ export default function Beverage() {
                 </div>
                 <div className="lower-content">
                   <h6>
-                    <Link href="milkshake">Frappe</Link>
+                    <Link href="milkshake">Курут</Link>
                   </h6>
-                  <div className="products">3 products</div>
+                  <div className="products">Аксерке</div>
                 </div>
               </div>
             </div>
@@ -60,9 +60,9 @@ export default function Beverage() {
                 </div>
                 <div className="lower-content">
                   <h6>
-                    <Link href="milkshake">Boba Drinks</Link>
+                    <Link href="milkshake">Шербет</Link>
                   </h6>
-                  <div className="products">3 products</div>
+                  <div className="products">Яблоко</div>
                 </div>
               </div>
             </div>
@@ -72,14 +72,14 @@ export default function Beverage() {
               <div className="inner-box">
                 <div className="image">
                   <Link href="milkshake">
-                    <img src="assets/images/resource/beverage-4.jpg" alt="" />
+                    <img src="assets/images/chalap1.png" alt="" />
                   </Link>
                 </div>
                 <div className="lower-content">
                   <h6>
-                    <Link href="milkshake">Mojito</Link>
+                    <Link href="milkshake">Чалап</Link>
                   </h6>
-                  <div className="products">3 products</div>
+                  <div className="products">Райхан</div>
                 </div>
               </div>
             </div>
@@ -89,14 +89,14 @@ export default function Beverage() {
               <div className="inner-box">
                 <div className="image">
                   <Link href="milkshake">
-                    <img src="assets/images/resource/beverage-5.jpg" alt="" />
+                    <img src="assets/images/kurut2.png" alt="" />
                   </Link>
                 </div>
                 <div className="lower-content">
                   <h6>
-                    <Link href="milkshake">Slushy</Link>
+                    <Link href="milkshake">Курут</Link>
                   </h6>
-                  <div className="products">3 products</div>
+                  <div className="products">Чий</div>
                 </div>
               </div>
             </div>
@@ -106,14 +106,14 @@ export default function Beverage() {
               <div className="inner-box">
                 <div className="image">
                   <Link href="milkshake">
-                    <img src="assets/images/resource/beverage-6.jpg" alt="" />
+                    <img src="assets/images/sherbet1.png" alt="" />
                   </Link>
                 </div>
                 <div className="lower-content">
                   <h6>
-                    <Link href="milkshake">Hot Chocolate</Link>
+                    <Link href="milkshake">Шербет</Link>
                   </h6>
-                  <div className="products">3 products</div>
+                  <div className="products">Яблоко-чернослив</div>
                 </div>
               </div>
             </div>
@@ -123,14 +123,14 @@ export default function Beverage() {
               <div className="inner-box">
                 <div className="image">
                   <Link href="milkshake">
-                    <img src="assets/images/resource/beverage-7.jpg" alt="" />
+                    <img src="assets/images/chalap2.png" alt="" />
                   </Link>
                 </div>
                 <div className="lower-content">
                   <h6>
-                    <Link href="milkshake">smoothie</Link>
+                    <Link href="milkshake">Чалап</Link>
                   </h6>
-                  <div className="products">3 products</div>
+                  <div className="products">Бышма</div>
                 </div>
               </div>
             </div>
@@ -140,14 +140,14 @@ export default function Beverage() {
               <div className="inner-box">
                 <div className="image">
                   <Link href="milkshake">
-                    <img src="assets/images/resource/beverage-8.jpg" alt="" />
+                    <img src="assets/images/kurut3.png" alt="" />
                   </Link>
                 </div>
                 <div className="lower-content">
                   <h6>
-                    <Link href="milkshake">coffee</Link>
+                    <Link href="milkshake">Курут</Link>
                   </h6>
-                  <div className="products">3 products</div>
+                  <div className="products">Бакай</div>
                 </div>
               </div>
             </div>
@@ -155,7 +155,7 @@ export default function Beverage() {
 
           {/* Button Box */}
           <div className="button-box text-center">
-            <Link href="menu" className="theme-btn btn-style-two clearfix">
+            <Link href="#" className="theme-btn btn-style-two clearfix">
               <span style={{ paddingLeft: "25px" }}>
                 Просмотреть все продукты
               </span>

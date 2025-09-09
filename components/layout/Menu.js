@@ -1,34 +1,27 @@
+"use client";
 import Link from "next/link";
-// import { useRouter } from "next/router"
+import { usePathname } from "next/navigation";
 
 export default function Menu() {
-  // const router = useRouter()
+  const pathname = usePathname(); // Азыркы URL'ди алат
+
+  const menuLeft = [
+    { name: "Главная", path: "/" },
+    { name: "О нас", path: "#" },
+    { name: "Продукция", path: "#" },
+    { name: "Новости", path: "#" },
+    { name: "Вакансий", path: "#" },
+    { name: "Партнёрам", path: "#" },
+    { name: "Контакты", path: "#" },
+  ];
 
   return (
-    <>
-      <ul className="navigation">
-        <li className="dropdown">
-          <Link href="/">Главная</Link>
+    <ul className="navigation">
+      {menuLeft.map((item) => (
+        <li key={item.name} className={pathname === item.path ? "active" : ""}>
+          <Link href={item.path}>{item.name}</Link>
         </li>
-        <li className="dropdown">
-          <Link href="about">О нас</Link>
-        </li>
-        <li className="dropdown">
-          <Link href="menu">Продукция</Link>
-        </li>
-        <li className="dropdown">
-          <Link href="gallery">Новости</Link>
-        </li>
-        <li className="dropdown">
-          <Link href="blog-classic">Вакансий</Link>
-        </li>
-        <li className="dropdown">
-          <Link href="blog-classic">Партнёрам</Link>
-        </li>
-        <li>
-          <Link href="contact">Контакты</Link>
-        </li>
-      </ul>
-    </>
+      ))}
+    </ul>
   );
 }

@@ -27,7 +27,7 @@ export default function Fluid() {
               </div>
 
               <div className="button-box">
-                <Link href="menu" className="theme-btn btn-style-two clearfix">
+                <Link href="#" className="theme-btn btn-style-two clearfix">
                   <span style={{ paddingLeft: "25px" }}>Все продукты</span>
                 </Link>
               </div>
@@ -41,7 +41,7 @@ export default function Fluid() {
             }}
           >
             <figure className="image-box">
-              <img src="assets/images/resource/image-1.jpg" alt="" />
+              <img src="assets/images/block6.jpg" alt="" />
             </figure>
           </div>
         </div>
