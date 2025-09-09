@@ -241,7 +241,7 @@
   bottom: 0px;
   width: 100%;
   height: 164px;
-  z-index: 2;
+  z-index: 3;
   background-repeat: repeat-x;
 }
 
@@ -333,7 +333,7 @@
 .banner-section .icon-layer-two2 {
   position: absolute;
   left: -15px;
-  bottom: 90px;
+  bottom: 30px;
   width: 100%;
   max-width: 550px;
   height: 250px;
@@ -464,29 +464,62 @@
   -o-transition-delay: 400ms;
   transition-delay: 400ms;
 }
-.banner-section .content-column .theme-btn {
+.banner-section .content-column .btns-box .buttons {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-right: 15px;
-  padding-top: 15px;
   background: white;
   font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: clamp(14px, 2vw, 19.09px);
   text-align: center;
   color: #613e31;
-  width: 200px;
-  height: 55px;
+  width: 272px;
+  height: 65px;
+  opacity: 1;
   border-radius: 30px;
+}
+.banner-section .content-column .btns-box .buttons .theme-btn {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: clamp(14px, 2vw, 19.09px);
   text-align: center;
+  color: rgb(170, 39, 39);
+}
+
+.banner-section .content-column .buttons .oimoLeft {
+  position: absolute;
+  width: 50px;
+  height: auto;
+  object-fit: contain;
+  angle: -11.35 deg;
+  opacity: 1;
+  bottom: 0;
+  left: 0;
+  border-bottom-left-radius: 30px;
+}
+.banner-section .content-column .buttons .oimoRigth {
+  position: absolute;
+  width: 50px;
+  height: auto;
+  angle: -8 deg;
+  opacity: 1;
+  top: 0;
+  right: 0;
+  border-top-right-radius: 30px;
 }
 .banner-section .slides .slide .images {
   display: flex;
   position: absolute;
   bottom: 60px;
-  right: 120px;
+  right: 180px;
   gap: 20px;
 }
 .banner-section .slides .slide .image-column img {
-  padding-top: 50px;
+  padding-top: 80px;
+  margin-bottom: 30px;
   height: auto;
   max-height: 500px;
   object-fit: cover;
@@ -562,7 +595,7 @@
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-45px); /* Жогорулатуу */
+    transform: translateY(-45px);
   }
 }
 
@@ -674,17 +707,43 @@
 .juice-section .content-column .sec-title .text {
   font-family: "Inter", sans-serif;
 }
+.juice-section .content-column .buttons {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(170, 39, 39);
+  width: 272px;
+  height: 65px;
+  border-radius: 30px;
+}
 .juice-section .content-column .theme-btn {
   font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: clamp(14px, 2vw, 19.09px);
   text-align: center;
-  color: #613e31;
-  border: 1px solid #613e31;
+  color: rgb(170, 39, 39);
 }
-.juice-section .content-column .theme-btn:hover {
-  background: #613e31;
-  color: white;
+.juice-section .content-column .buttons .oimoLeft {
+  position: absolute;
+  width: 50px;
+  height: auto;
+  object-fit: contain;
+  angle: -11.35 deg;
+  opacity: 1;
+  bottom: 0;
+  left: 0;
+  border-bottom-left-radius: 30px;
+}
+.juice-section .content-column .buttons .oimoRigth {
+  position: absolute;
+  width: 50px;
+  height: auto;
+  angle: -8 deg;
+  opacity: 1;
+  top: 0;
+  right: 0;
+  border-top-right-radius: 30px;
 }
 /*** 
 
@@ -733,17 +792,46 @@
 .beverage-section .sec-title h2 {
   font-family: "Inter", sans-serif;
 }
-.beverage-section .button-box .theme-btn {
+.beverage-section .buttons {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(170, 39, 39);
+  width: 382px;
+  height: 65px;
+  border-radius: 30px;
+  margin-left: 400px;
+  margin-top: 20px;
+}
+.beverage-section .theme-btn {
   font-family: "Inter", sans-serif;
+  padding-right: 15px;
   font-weight: 600;
   font-size: clamp(14px, 2vw, 19.09px);
   text-align: center;
-  color: #613e31;
-  border: 1px solid #613e31;
+  color: rgb(170, 39, 39);
 }
-.beverage-section .button-box .theme-btn:hover {
-  background: #613e31;
-  color: white;
+.beverage-section .buttons .oimoLeft {
+  position: absolute;
+  width: 50px;
+  height: auto;
+  object-fit: contain;
+  angle: -11.35 deg;
+  opacity: 1;
+  bottom: 0;
+  left: 0;
+  border-bottom-left-radius: 30px;
+}
+.beverage-section .buttons .oimoRigth {
+  position: absolute;
+  width: 50px;
+  height: auto;
+  angle: -8 deg;
+  opacity: 1;
+  top: 0;
+  right: 0;
+  border-top-right-radius: 30px;
 }
 .beverage-block {
   position: relative;
@@ -1238,17 +1326,44 @@
   background: url(../images/background/pattern-3.png);
   background-repeat: repeat-y;
 }
-.fluid-section-one .content-column .button-box .theme-btn {
-  font-family: "Inter", sans-serif;
-  font-weight: 600;
-  font-size: clamp(14px, 1.8vw, 18px);
-  text-align: center;
-  color: #613e31;
-  border: 1px solid #613e31;
+.fluid-section-one .content-column .buttons {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(170, 39, 39);
+  width: 272px;
+  height: 65px;
+  border-radius: 30px;
 }
-.fluid-section-one .content-column .button-box .theme-btn:hover {
-  color: white;
-  background: #613e31;
+.fluid-section-one .content-column .theme-btn {
+  font-family: "Inter", sans-serif;
+  padding-right: 15px;
+  font-weight: 600;
+  font-size: clamp(14px, 2vw, 19.09px);
+  text-align: center;
+  color: rgb(170, 39, 39);
+}
+.fluid-section-one .content-column .buttons .oimoLeft {
+  position: absolute;
+  width: 50px;
+  height: auto;
+  object-fit: contain;
+  angle: -11.35 deg;
+  opacity: 1;
+  bottom: 0;
+  left: 0;
+  border-bottom-left-radius: 30px;
+}
+.fluid-section-one .content-column .buttons .oimoRigth {
+  position: absolute;
+  width: 50px;
+  height: auto;
+  angle: -8 deg;
+  opacity: 1;
+  top: 0;
+  right: 0;
+  border-top-right-radius: 30px;
 }
 /*** 
 

@@ -25,11 +25,20 @@ export default function Fluid() {
                   вкусов — всё это сделано с уважением к природе и родной земле.
                 </div>
               </div>
-
-              <div className="button-box">
-                <Link href="#" className="theme-btn btn-style-two clearfix">
-                  <span style={{ paddingLeft: "25px" }}>Все продукты</span>
+              <div className="buttons">
+                <img
+                  src="/assets/images/oimoLeft.png"
+                  alt=""
+                  className="oimoLeft"
+                />
+                <Link href="#" className="theme-btn ">
+                  Все продукты
                 </Link>
+                <img
+                  src="/assets/images/oimoRigth.png"
+                  alt=""
+                  className="oimoRigth"
+                />
               </div>
             </div>
           </div>

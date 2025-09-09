@@ -44,9 +44,21 @@ export default function Juice() {
                     уважение к нашим корням
                   </div>
                 </div>
-                <Link href="#" className="theme-btn btn-style-two clearfix">
-                  <span style={{ paddingLeft: "25px" }}>Стань партнёром</span>
-                </Link>
+                <div className="buttons">
+                  <img
+                    src="/assets/images/oimoLeft.png"
+                    alt=""
+                    className="oimoLeft"
+                  />
+                  <Link href="#" className="theme-btn ">
+                    Стань партнёром
+                  </Link>
+                  <img
+                    src="/assets/images/oimoRigth.png"
+                    alt=""
+                    className="oimoRigth"
+                  />
+                </div>
               </div>
             </div>
           </div>

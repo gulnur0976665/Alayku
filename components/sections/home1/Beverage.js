@@ -20,13 +20,13 @@ export default function Beverage() {
             <div className="beverage-block col-xl-3 col-lg-4 col-md-6 col-sm-12">
               <div className="inner-box">
                 <div className="image">
-                  <Link href="milkshake">
+                  <Link href="#">
                     <img src="assets/images/chalap.png" alt="" />
                   </Link>
                 </div>
                 <div className="lower-content">
                   <h6>
-                    <Link href="milkshake">Чалап</Link>
+                    <Link href="#">Чалап</Link>
                   </h6>
                   <div className="products">Перец</div>
                 </div>
@@ -37,13 +37,13 @@ export default function Beverage() {
             <div className="beverage-block col-xl-3 col-lg-4 col-md-6 col-sm-12">
               <div className="inner-box">
                 <div className="image">
-                  <Link href="milkshake">
+                  <Link href="#">
                     <img src="assets/images/kurut1.png" alt="" />
                   </Link>
                 </div>
                 <div className="lower-content">
                   <h6>
-                    <Link href="milkshake">Курут</Link>
+                    <Link href="#">Курут</Link>
                   </h6>
                   <div className="products">Аксерке</div>
                 </div>
@@ -54,13 +54,13 @@ export default function Beverage() {
             <div className="beverage-block col-xl-3 col-lg-4 col-md-6 col-sm-12">
               <div className="inner-box">
                 <div className="image">
-                  <Link href="milkshake">
+                  <Link href="#">
                     <img src="assets/images/sherbet.png" alt="" />
                   </Link>
                 </div>
                 <div className="lower-content">
                   <h6>
-                    <Link href="milkshake">Шербет</Link>
+                    <Link href="#">Шербет</Link>
                   </h6>
                   <div className="products">Яблоко</div>
                 </div>
@@ -71,13 +71,13 @@ export default function Beverage() {
             <div className="beverage-block col-xl-3 col-lg-4 col-md-6 col-sm-12">
               <div className="inner-box">
                 <div className="image">
-                  <Link href="milkshake">
+                  <Link href="#">
                     <img src="assets/images/chalap1.png" alt="" />
                   </Link>
                 </div>
                 <div className="lower-content">
                   <h6>
-                    <Link href="milkshake">Чалап</Link>
+                    <Link href="#">Чалап</Link>
                   </h6>
                   <div className="products">Райхан</div>
                 </div>
@@ -88,13 +88,13 @@ export default function Beverage() {
             <div className="beverage-block col-xl-3 col-lg-4 col-md-6 col-sm-12">
               <div className="inner-box">
                 <div className="image">
-                  <Link href="milkshake">
+                  <Link href="#">
                     <img src="assets/images/kurut2.png" alt="" />
                   </Link>
                 </div>
                 <div className="lower-content">
                   <h6>
-                    <Link href="milkshake">Курут</Link>
+                    <Link href="#">Курут</Link>
                   </h6>
                   <div className="products">Чий</div>
                 </div>
@@ -105,13 +105,13 @@ export default function Beverage() {
             <div className="beverage-block col-xl-3 col-lg-4 col-md-6 col-sm-12">
               <div className="inner-box">
                 <div className="image">
-                  <Link href="milkshake">
+                  <Link href="#">
                     <img src="assets/images/sherbet1.png" alt="" />
                   </Link>
                 </div>
                 <div className="lower-content">
                   <h6>
-                    <Link href="milkshake">Шербет</Link>
+                    <Link href="#">Шербет</Link>
                   </h6>
                   <div className="products">Яблоко-чернослив</div>
                 </div>
@@ -122,13 +122,13 @@ export default function Beverage() {
             <div className="beverage-block col-xl-3 col-lg-4 col-md-6 col-sm-12">
               <div className="inner-box">
                 <div className="image">
-                  <Link href="milkshake">
+                  <Link href="#">
                     <img src="assets/images/chalap2.png" alt="" />
                   </Link>
                 </div>
                 <div className="lower-content">
                   <h6>
-                    <Link href="milkshake">Чалап</Link>
+                    <Link href="#">Чалап</Link>
                   </h6>
                   <div className="products">Бышма</div>
                 </div>
@@ -139,27 +139,37 @@ export default function Beverage() {
             <div className="beverage-block col-xl-3 col-lg-4 col-md-6 col-sm-12">
               <div className="inner-box">
                 <div className="image">
-                  <Link href="milkshake">
+                  <Link href="#">
                     <img src="assets/images/kurut3.png" alt="" />
                   </Link>
                 </div>
                 <div className="lower-content">
                   <h6>
-                    <Link href="milkshake">Курут</Link>
+                    <Link href="#">Курут</Link>
                   </h6>
                   <div className="products">Бакай</div>
                 </div>
               </div>
             </div>
           </div>
-
           {/* Button Box */}
-          <div className="button-box text-center">
-            <Link href="#" className="theme-btn btn-style-two clearfix">
+
+          <div className="buttons text-center">
+            <img
+              src="/assets/images/oimoLeft.png"
+              alt=""
+              className="oimoLeft"
+            />
+            <Link href="#" className="theme-btn ">
               <span style={{ paddingLeft: "25px" }}>
                 Просмотреть все продукты
               </span>
             </Link>
+            <img
+              src="/assets/images/oimoRigth.png"
+              alt=""
+              className="oimoRigth"
+            />
           </div>
         </div>
       </section>

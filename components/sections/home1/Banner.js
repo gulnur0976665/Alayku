@@ -96,10 +96,21 @@ export default function Banner() {
                     index === activeIndex ? "animate" : ""
                   }`}
                 >
-                  <span className="theme-btn">
-                    {" "}
-                    <Link href="#">Стань партнёром</Link>
-                  </span>
+                  <div className="buttons">
+                    <img
+                      src="/assets/images/oimoLeft.png"
+                      alt=""
+                      className="oimoLeft"
+                    />
+                    <Link href="#" className="theme-btn">
+                      Стань партнёром
+                    </Link>
+                    <img
+                      src="/assets/images/oimoRigth.png"
+                      alt=""
+                      className="oimoRigth"
+                    />
+                  </div>
                 </div>
               </div>
               <div className="images">
