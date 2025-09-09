@@ -6,25 +6,25 @@ export default function Banner() {
   const slides = [
     {
       image: "/assets/images/homebg2.png",
-      mainImg: "/assets/images/sherbet.png",
-      mainImg1: "/assets/images/sherbet1.png",
-      mainImg2: "/assets/images/sherbet2.png",
-      img1: "/assets/images/abrikos.png",
-      img2: "/assets/images/apple.png",
+      mainImg: "/assets/images/sherbet (1).png",
+      mainImg1: "/assets/images/sherbet1 (1).png",
+      mainImg2: "/assets/images/sherbet2 (1).png",
+      img1: "/assets/images/abrikos (1).png",
+      img2: "/assets/images/apple (1).png",
     },
     {
       image: "/assets/images/homebg1.png",
-      mainImg: "/assets/images/kurut1.png",
-      mainImg1: "/assets/images/kurut2.png",
-      mainImg2: "/assets/images/kurut3.png",
-      img21: "/assets/images/kurut.png",
+      mainImg: "/assets/images/kurut1 (1).png",
+      mainImg1: "/assets/images/kurut2 (1).png",
+      mainImg2: "/assets/images/kurut3 (1).png",
+      img21: "/assets/images/kurut (1).png",
     },
     {
       image: "/assets/images/homebg3.png",
-      mainImg: "/assets/images/chalap.png",
-      mainImg1: "/assets/images/chalap1.png",
-      mainImg2: "/assets/images/chalap2.png",
-      img22: "/assets/images/sli.png",
+      mainImg: "/assets/images/chalap (1).png",
+      mainImg1: "/assets/images/chalap1 (1).png",
+      mainImg2: "/assets/images/chalap2 (1).png",
+      img22: "/assets/images/sli (1).png",
     },
   ];
 
@@ -98,7 +98,7 @@ export default function Banner() {
                 >
                   <div className="buttons">
                     <img
-                      src="/assets/images/oimoLeft.png"
+                      src="/assets/images/oimoLeft (1).png"
                       alt=""
                       className="oimoLeft"
                     />
@@ -106,7 +106,7 @@ export default function Banner() {
                       Стань партнёром
                     </Link>
                     <img
-                      src="/assets/images/oimoRigth.png"
+                      src="/assets/images/oimoRigth (1).png"
                       alt=""
                       className="oimoRigth"
                     />

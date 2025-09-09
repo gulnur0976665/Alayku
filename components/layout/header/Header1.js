@@ -24,7 +24,7 @@ export default function Header1({
               <div className="logo">
                 <Link href="/">
                   <Image
-                    src="/assets/images/logohe.png"
+                    src="/assets/images/logohe (1).png"
                     alt="Logo"
                     width={120}
                     height={60}
@@ -54,7 +54,7 @@ export default function Header1({
             <div className="logo pull-left">
               <Link href="/">
                 <Image
-                  src="/assets/images/logoHeader.png"
+                  src="/assets/images/logoHeader (1).png"
                   alt="Logo"
                   width={120}
                   height={60}

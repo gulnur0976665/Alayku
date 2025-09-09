@@ -21,7 +21,7 @@ export default function Beverage() {
               <div className="inner-box">
                 <div className="image">
                   <Link href="#">
-                    <img src="assets/images/chalap.png" alt="" />
+                    <img src="assets/images/chalap (1).png" alt="" />
                   </Link>
                 </div>
                 <div className="lower-content">
@@ -38,7 +38,7 @@ export default function Beverage() {
               <div className="inner-box">
                 <div className="image">
                   <Link href="#">
-                    <img src="assets/images/kurut1.png" alt="" />
+                    <img src="assets/images/kurut1 (1).png" alt="" />
                   </Link>
                 </div>
                 <div className="lower-content">
@@ -55,7 +55,7 @@ export default function Beverage() {
               <div className="inner-box">
                 <div className="image">
                   <Link href="#">
-                    <img src="assets/images/sherbet.png" alt="" />
+                    <img src="assets/images/sherbet (1).png" alt="" />
                   </Link>
                 </div>
                 <div className="lower-content">
@@ -72,7 +72,7 @@ export default function Beverage() {
               <div className="inner-box">
                 <div className="image">
                   <Link href="#">
-                    <img src="assets/images/chalap1.png" alt="" />
+                    <img src="assets/images/chalap1 (1).png" alt="" />
                   </Link>
                 </div>
                 <div className="lower-content">
@@ -89,7 +89,7 @@ export default function Beverage() {
               <div className="inner-box">
                 <div className="image">
                   <Link href="#">
-                    <img src="assets/images/kurut2.png" alt="" />
+                    <img src="assets/images/kurut2 (1).png" alt="" />
                   </Link>
                 </div>
                 <div className="lower-content">
@@ -106,7 +106,7 @@ export default function Beverage() {
               <div className="inner-box">
                 <div className="image">
                   <Link href="#">
-                    <img src="assets/images/sherbet1.png" alt="" />
+                    <img src="assets/images/sherbet1 (1).png" alt="" />
                   </Link>
                 </div>
                 <div className="lower-content">
@@ -123,7 +123,7 @@ export default function Beverage() {
               <div className="inner-box">
                 <div className="image">
                   <Link href="#">
-                    <img src="assets/images/chalap2.png" alt="" />
+                    <img src="assets/images/chalap2 (1).png" alt="" />
                   </Link>
                 </div>
                 <div className="lower-content">
@@ -140,7 +140,7 @@ export default function Beverage() {
               <div className="inner-box">
                 <div className="image">
                   <Link href="#">
-                    <img src="assets/images/kurut3.png" alt="" />
+                    <img src="assets/images/kurut3 (1).png" alt="" />
                   </Link>
                 </div>
                 <div className="lower-content">
@@ -156,7 +156,7 @@ export default function Beverage() {
 
           <div className="buttons text-center">
             <img
-              src="/assets/images/oimoLeft.png"
+              src="/assets/images/oimoLeft (1).png"
               alt=""
               className="oimoLeft"
             />
@@ -166,7 +166,7 @@ export default function Beverage() {
               </span>
             </Link>
             <img
-              src="/assets/images/oimoRigth.png"
+              src="/assets/images/oimoRigth (1).png"
               alt=""
               className="oimoRigth"
             />

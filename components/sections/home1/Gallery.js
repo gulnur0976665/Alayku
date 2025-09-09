@@ -65,7 +65,7 @@ export default function Gallery() {
               <div className="gallery-block">
                 <div className="inner-box">
                   <figure className="image-box">
-                    <img src="assets/images/kurut1.png" alt="" />
+                    <img src="assets/images/kurut1 (1).png" alt="" />
                     {/* Overlay Box */}
                     <div className="overlay-box">
                       <div className="overlay-inner">
@@ -88,7 +88,7 @@ export default function Gallery() {
               <div className="gallery-block">
                 <div className="inner-box">
                   <figure className="image-box">
-                    <img src="assets/images/chalap.png" alt="" />
+                    <img src="assets/images/chalap (1).png" alt="" />
                     {/* Overlay Box */}
                     <div className="overlay-box">
                       <div className="overlay-inner">
@@ -111,7 +111,7 @@ export default function Gallery() {
               <div className="gallery-block">
                 <div className="inner-box">
                   <figure className="image-box">
-                    <img src="assets/images/sherbet.png" alt="" />
+                    <img src="assets/images/sherbet (1).png" alt="" />
                     {/* Overlay Box */}
                     <div className="overlay-box">
                       <div className="overlay-inner">
@@ -134,7 +134,7 @@ export default function Gallery() {
               <div className="gallery-block">
                 <div className="inner-box">
                   <figure className="image-box">
-                    <img src="assets/images/kurut2.png" alt="" />
+                    <img src="assets/images/kurut2 (1).png" alt="" />
                     {/* Overlay Box */}
                     <div className="overlay-box">
                       <div className="overlay-inner">
@@ -157,7 +157,7 @@ export default function Gallery() {
               <div className="gallery-block">
                 <div className="inner-box">
                   <figure className="image-box">
-                    <img src="assets/images/chalap1.png" alt="" />
+                    <img src="assets/images/chalap1 (1).png" alt="" />
                     {/* Overlay Box */}
                     <div className="overlay-box">
                       <div className="overlay-inner">
@@ -180,7 +180,7 @@ export default function Gallery() {
               <div className="gallery-block">
                 <div className="inner-box">
                   <figure className="image-box">
-                    <img src="assets/images/sherbet1.png" alt="" />
+                    <img src="assets/images/sherbet1 (1).png" alt="" />
                     {/* Overlay Box */}
                     <div className="overlay-box">
                       <div className="overlay-inner">
@@ -203,7 +203,7 @@ export default function Gallery() {
               <div className="gallery-block">
                 <div className="inner-box">
                   <figure className="image-box">
-                    <img src="assets/images/kurut3.png" alt="" />
+                    <img src="assets/images/kurut3 (1).png" alt="" />
                     {/* Overlay Box */}
                     <div className="overlay-box">
                       <div className="overlay-inner">
@@ -226,7 +226,7 @@ export default function Gallery() {
               <div className="gallery-block">
                 <div className="inner-box">
                   <figure className="image-box">
-                    <img src="assets/images/chalap.png" alt="" />
+                    <img src="assets/images/chalap (1).png" alt="" />
                     {/* Overlay Box */}
                     <div className="overlay-box">
                       <div className="overlay-inner">
@@ -249,7 +249,7 @@ export default function Gallery() {
               <div className="gallery-block">
                 <div className="inner-box">
                   <figure className="image-box">
-                    <img src="assets/images/sherbet2.png" alt="" />
+                    <img src="assets/images/sherbet2 (1).png" alt="" />
                     {/* Overlay Box */}
                     <div className="overlay-box">
                       <div className="overlay-inner">
@@ -272,7 +272,7 @@ export default function Gallery() {
               <div className="gallery-block">
                 <div className="inner-box">
                   <figure className="image-box">
-                    <img src="assets/images/chalap1.png" alt="" />
+                    <img src="assets/images/chalap1 (1).png" alt="" />
                     {/* Overlay Box */}
                     <div className="overlay-box">
                       <div className="overlay-inner">

@@ -9,7 +9,7 @@ export default function Fluid() {
             <div className="icon-box">
               <img
                 style={{ width: "200px", height: "auto" }}
-                src="/assets/images/apple.png"
+                src="/assets/images/apple (1).png"
                 alt=""
               />
             </div>
@@ -27,7 +27,7 @@ export default function Fluid() {
               </div>
               <div className="buttons">
                 <img
-                  src="/assets/images/oimoLeft.png"
+                  src="/assets/images/oimoLeft (1).png"
                   alt=""
                   className="oimoLeft"
                 />
@@ -35,7 +35,7 @@ export default function Fluid() {
                   Все продукты
                 </Link>
                 <img
-                  src="/assets/images/oimoRigth.png"
+                  src="/assets/images/oimoRigth (1).png"
                   alt=""
                   className="oimoRigth"
                 />
@@ -50,7 +50,7 @@ export default function Fluid() {
             }}
           >
             <figure className="image-box">
-              <img src="assets/images/block6.jpg" alt="" />
+              <img src="assets/images/block6 (1).jpg" alt="" />
             </figure>
           </div>
         </div>

@@ -16,15 +16,19 @@ export default function Juice() {
             <div className="image-column col-lg-7 col-md-12 col-sm-12">
               <div className="inner-column">
                 <div className="image">
-                  <img src="assets/images/kurut1.png" alt="" />
-                  <img src="assets/images/sherbet.png" alt="" />
-                  <img src="assets/images/chalap.png" alt="" />
+                  <img src="assets/images/kurut1 (1).png" alt="" />
+                  <img src="assets/images/sherbet (1).png" alt="" />
+                  <img src="assets/images/chalap (1).png" alt="" />
                 </div>
               </div>
-              <img src="assets/images/apple.png" alt="" className="img11" />
-              <img src="assets/images/abrikos.png" alt="" className="img12" />
-              <img src="assets/images/kurut.png" alt="" className="img13" />
-              <img src="assets/images/sli.png" alt="" className="img14" />
+              <img src="assets/images/apple (1).png" alt="" className="img11" />
+              <img
+                src="assets/images/abrikos (1).png"
+                alt=""
+                className="img12"
+              />
+              <img src="assets/images/kurut (1).png" alt="" className="img13" />
+              <img src="assets/images/sli (1).png" alt="" className="img14" />
             </div>
 
             {/* Content Column */}
@@ -46,7 +50,7 @@ export default function Juice() {
                 </div>
                 <div className="buttons">
                   <img
-                    src="/assets/images/oimoLeft.png"
+                    src="/assets/images/oimoLeft (1).png"
                     alt=""
                     className="oimoLeft"
                   />
@@ -54,7 +58,7 @@ export default function Juice() {
                     Стань партнёром
                   </Link>
                   <img
-                    src="/assets/images/oimoRigth.png"
+                    src="/assets/images/oimoRigth (1).png"
                     alt=""
                     className="oimoRigth"
                   />

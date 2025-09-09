@@ -31,15 +31,15 @@ export default function Deal() {
             <div className="box-inner">
               {/* Sec Title */}
               <div className="sec-title light centered">
-                <div  className="title">Алайку</div>
-                <h2 >
+                <div className="title">Алайку</div>
+                <h2>
                   Станьте партнёром “Алайку Органикс” и вместе развивайте рынок
                   натуральных продуктов в Кыргызстане!
                 </h2>
               </div>
               {/* Email Form */}
               <div className="email-form">
-                <div  className="email-title">
+                <div className="email-title">
                   Отправьте нам Ваш email и мы с Вами свяжемся
                 </div>
                 <form method="post">

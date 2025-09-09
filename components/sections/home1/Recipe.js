@@ -6,13 +6,13 @@ export default function Recipe() {
       {/* Recipe Section */}
       <section className="recipe-section">
         <div className="icon-layer-one">
-          <img src="/assets/images/apple.png" alt="" />
+          <img src="/assets/images/apple (1).png" alt="" />
         </div>
         <div className="icon-layer-two">
-          <img src="/assets/images/abrikos.png" alt="" />
+          <img src="/assets/images/abrikos (1).png" alt="" />
         </div>
         <div className="icon-layer-three">
-          <img src="/assets/images/apple.png" alt="" />
+          <img src="/assets/images/apple (1).png" alt="" />
         </div>
         <div className="auto-container">
           {/* Sec Title */}
@@ -36,7 +36,7 @@ export default function Recipe() {
                   <div className="recipe-block">
                     <div className="inner-box">
                       <div className="icon">
-                        <img src="/assets/images/abrikos.png" alt="" />
+                        <img src="/assets/images/abrikos (1).png" alt="" />
                       </div>
                       <h6>
                         <Link href="menu">
@@ -56,7 +56,7 @@ export default function Recipe() {
                   <div className="recipe-block">
                     <div className="inner-box">
                       <div className="icon">
-                        <img src="/assets/images/apple.png" alt="" />
+                        <img src="/assets/images/apple (1).png" alt="" />
                       </div>
                       <h6>
                         <Link href="menu">
@@ -79,7 +79,7 @@ export default function Recipe() {
               <div className="image-column col-lg-2 col-md-12 col-sm-12">
                 <div className="inner-column">
                   <div className="image">
-                    <img src="assets/images/sherbet.png" alt="" />
+                    <img src="assets/images/sherbet (1).png" alt="" />
                   </div>
                 </div>
               </div>
@@ -91,7 +91,7 @@ export default function Recipe() {
                   <div className="recipe-block style-two">
                     <div className="inner-box">
                       <div className="icon">
-                        <img src="/assets/images/apple.png" alt="" />
+                        <img src="/assets/images/apple (1).png" alt="" />
                       </div>
                       <h6>
                         <Link href="menu">
@@ -111,7 +111,7 @@ export default function Recipe() {
                   <div className="recipe-block style-two">
                     <div className="inner-box">
                       <div className="icon">
-                        <img src="/assets/images/abrikos.png" alt="" />
+                        <img src="/assets/images/abrikos (1 ).png" alt="" />
                       </div>
                       <h6>
                         <Link href="menu">
