@@ -1,8 +1,8 @@
 /* Import Files */
 @font-face {
   font-family: "LillyBelle";
-  src: url("../fonts/LillyBelle.woff") format("woff"),
-    url("../fonts/LillyBelle.ttf") format("truetype");
+  src: url("/assets/fonts/LillyBelle.woff") format("woff"),
+    url("/assets/fonts/LillyBelle.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
