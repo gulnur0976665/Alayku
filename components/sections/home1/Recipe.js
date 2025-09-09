@@ -111,7 +111,7 @@ export default function Recipe() {
                   <div className="recipe-block style-two">
                     <div className="inner-box">
                       <div className="icon">
-                        <img src="/assets/images/abrikos (1 ).png" alt="" />
+                        <img src="/assets/images/abrikos (1).png" alt="" />
                       </div>
                       <h6>
                         <Link href="menu">
