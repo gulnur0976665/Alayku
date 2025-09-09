@@ -21,7 +21,12 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${niconne.variable} ${inter.className} ${poppins.variable} ${tangerine.variable}`}
     >
-      <Head></Head>
+      <Head>
+        <link
+          href="https://fonts.googleapis.com/css2?family=LillyBelle&display=swap"
+          rel="stylesheet"
+        />
+      </Head>
       <body>{children}</body>
     </html>
   );
