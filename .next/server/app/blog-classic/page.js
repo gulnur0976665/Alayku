@@ -299,7 +299,7 @@ const tree = {
       },
         {
         'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 766)), "C:\\Users\\turdu\\Downloads\\Telegram Desktop\\foodily_food_beverage_shop_react_next_js_2024_08_20_04_30_54_utc\\foodily pack\\foodily\\app\\layout.js"],
-'loading': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8040)), "C:\\Users\\turdu\\Downloads\\Telegram Desktop\\foodily_food_beverage_shop_react_next_js_2024_08_20_04_30_54_utc\\foodily pack\\foodily\\app\\loading.js"],
+'loading': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5024)), "C:\\Users\\turdu\\Downloads\\Telegram Desktop\\foodily_food_beverage_shop_react_next_js_2024_08_20_04_30_54_utc\\foodily pack\\foodily\\app\\loading.js"],
 'not-found': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5168)), "C:\\Users\\turdu\\Downloads\\Telegram Desktop\\foodily_food_beverage_shop_react_next_js_2024_08_20_04_30_54_utc\\foodily pack\\foodily\\app\\not-found.js"],
         metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 651))).default(props))],
@@ -1240,7 +1240,7 @@ const __default__ = proxy.default;
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [583,251,830,324], () => (__webpack_exec__(7762)));
+var __webpack_exports__ = __webpack_require__.X(0, [583,416,830,858], () => (__webpack_exec__(7762)));
 module.exports = __webpack_exports__;
 
 })();

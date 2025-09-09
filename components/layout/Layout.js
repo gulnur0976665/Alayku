@@ -48,10 +48,12 @@ export default function Layout({
       }
     });
   }, []);
+
   return (
     <>
       <DataBg />
       <div className={`page-wrapper ${wrapperCls ? wrapperCls : ""}`} id="#top">
+
         <Header1
           scroll={scroll}
           isMobileMenu={isMobileMenu}
