@@ -1,4 +1,11 @@
 /* Import Files */
+@font-face {
+  font-family: "LillyBelle";
+  src: url("/fonts/LillyBelle.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 @import url("../vendors/animate/animate.css");
 @import url("../vendors/animate/animation.css");
 @import url("../vendors/animate/custom-animate.css");
